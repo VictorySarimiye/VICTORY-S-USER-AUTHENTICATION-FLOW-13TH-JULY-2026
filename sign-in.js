@@ -32,7 +32,7 @@ loginForm.addEventListener('submit', function handleSubmit(e) {
     sessionStorage.setItem('email', email);
 
     // STEP 6: Navigate to Home
-    window.location.href = "index.html";
+    window.location.href = "actual home page.html";
 });
 
 function showError(message) {

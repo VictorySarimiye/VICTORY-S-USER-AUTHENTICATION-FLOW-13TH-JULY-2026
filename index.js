@@ -32,5 +32,5 @@ signOutBtn.addEventListener('click', function signOut() {
     sessionStorage.removeItem('email');
 
     // STEP 12: Redirect back to sign in
-    window.location.href = "signin.html";
+    window.location.href = "index.html";
 });
